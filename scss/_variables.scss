@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&family=Roboto:wght@300;400;700&display=swap'); 
+
+$primary-font: "Roboto";
+$secondary-font: "Poppins";
+$fontAwesome-font: "Font Awesome 5 Free", "Font Awesome 5 Brands";
+
+$primary-color: rgb(214, 213, 213);
+$primary-color2: rgb(192, 192, 192);
+$primary-color3:rgb(206, 205, 205);
+$secondary-color : rgb(53, 52, 52);
+$accent-color: rgb(67, 69, 197); //#4345c5
+
+$fontL : clamp(1.7rem,5vw,2.2rem);
+$fontM : clamp(1.2rem,5vw,1.3rem);
+$fontS : clamp(1rem,5vw,1.05rem);
+
+%responsiveWidth{
+    width: min(90%,1440px);
+    margin: 0 auto;
+}
+
+%buttonStyle{
+    padding: 0.6rem 0.8rem;
+    font-weight: bold;
+    background: $accent-color;
+    color: $primary-color;
+}

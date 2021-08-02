@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CatDog Pet Shop</title>
+
+    <link rel="stylesheet" href="scss/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js" integrity="sha512-UxP+UhJaGRWuMG2YC6LPWYpFQnsSgnor0VUF3BHdD83PS/pOpN+FYbZmrYN+ISX8jnvgVUciqP/fILOXDjZSwg==" crossorigin="anonymous" referrerpolicy="no-referrer" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/ScrollTrigger.min.js" defer></script>
+    <script src="js/index.js" defer></script>
+</head>
+<body>
+    
+    <!-- Hero Section -->
+    <main>
+        <img class="dog1-pic" src="images/ken-reid-ZRZSmK362Xw-unsplash.jpg" alt="dog1-pic">
+        <img class="cat2-pic" src="images/kabo-OouGoqQuf64-unsplash.jpg" alt="cat2-pic">
+        <img class="dog2-pic" src="images/karsten-winegeart-NE0XGVKTmcA-unsplash.jpg" alt="dog2-pic">        
+        <img class="cat1-pic" src="images/the-lucky-neko-CM7a-XBD4AU-unsplash.jpg" alt="cat1-pic">
+        <nav class="hero-mobile-nav">
+            <button class="close-navbar"><i class="fa fa-times"></i></button>
+            <ul class="links">
+                <li><a href="">Home</a></li>
+                <li><a href="">Services</a></li>
+                <li><a href="">About Us</a></li>
+                <li><a href="">Blogs</a></li>
+            </ul>
+            <div class="underline"></div>
+            <ul class="contact-info">
+                <li><p>Contact Us</p></li>
+                <li><p>Email:catdog@gmail.com</p></li>
+                <li><p>Phone:243-5312</p></li>
+                <li><p>Address: PulangLupa,Libis,Quezon City</p></li>
+                <li><p>All Rights Reversed 2021</p></li>
+            </ul>
+        </nav>
+        <header class="hero-header">
+            <div class="hero-header-wrapper">
+                <h2 class="hero-logo">CatDog</h2>
+                <div class="mobile-btn-bx">
+                    <button class="open-navbar"><i class="fa fa-bars "></i></button>
+                    <button class="cart-btn"><i class="fa fa-shopping-cart"></i></button>    
+                </div>
+                <nav class="hero-nav">
+                    <ul>
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Services</a></li>
+                        <li><a href="">About Us</a></li>
+                        <li><a href="">Blogs</a></li>
+                        <li><a href="">Contact Us</a></li>
+                        <button class="cart-btn"><i class="fa fa-shopping-cart"></i></button>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <section class="hero-section">
+            <div class="hero-section-wrapper">
+                <div class="hero-headline-bx">                        
+                    <h1 class="hero-headline">Treat Your Furry Friends</h1>
+                    <p class="hero-subheadline">Give your furry friends some love by being
+                        vaccinated,monthly checkups or provide them some foods and toys to be played with.
+                    </p>
+                    <button class="cta-btn">Shop Now</button>
+                </div>
+            </div>            
+        </section> 
+    </main>
+
+    <!-- Services Section -->
+
+    <section class="services-section">
+        <div class="services-section-wrapper">
+            <h2 class="services-title">We Sincerely Care For Your Dogs and Cats</h2>
+            <div class="services-bx">
+                <div class="services-card">
+                    <img src="icons/dog-food.svg" alt="pet food bowl">
+                    <h3>Pet Food and Accessories</h3>
+                    <p>Give your cat and dog the appropriate food depending on their age.</p>
+                    <a href="">Learn More</a>
+                </div>
+
+                <div class="services-card">
+                    <img src="icons/dog.svg" alt="dog taking a bath">
+                    <h3>Pet Grooming</h3>
+                    <p>Get rid of that fleas and give your cat and dog that awesome look</p>
+                    <a href="">Learn More</a>
+                </div>
+
+                <div class="services-card">
+                    <img src="icons/vaccination.svg" alt="vaccine">
+                    <h3>Check Up and Vaccinations</h3>
+                    <p>Don't compromise the health of your cat and dog. Prevent them from getting diseases</p>
+                    <a href="">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Section -->
+    <section class="product-section">
+        <div class="product-section-wrapper">
+            <div class="product-title-bx">    
+                <h2 class="product-title">The Best Products For Your Furry Friends</h2>
+                <a class="product-more-btn">See More <i class="fa fa-arrow-right"></i></a>
+            </div>
+            <div class="product-slider">
+                <div class="product-navigation-btn">
+                    <button class="product-prev-btn"><i class="fa fa-arrow-left"></i></button>
+                    <button class="product-next-btn"><i class="fa fa-arrow-right"></i></button>
+                </div>
+                <div class="product-slider-wrapper">
+                    <div class="product-slide">
+                        <div class="product-img-bx">
+                            <img src="images/whiskas-junior-tuna-85g-cat-wet-food.jpg" alt="">
+                        </div>
+                        <div class="product-details">
+                            <h3>Whiskas 85g</h3>
+                            <p>P100.00</p>
+                        </div>
+                        <div class="product-quantity">
+                            <button><i class="fa fa-minus"></i></button>
+                            <input type="text" value="1">
+                            <button><i class="fa fa-plus"></i></button>
+                        </div>
+                        <button class="product-btn">Add To Cart<i class="fa fa-shopping-cart"></i></button>
+                    </div>
+    
+                    <div class="product-slide">
+                        <div class="product-img-bx">
+                            <img src="images/pedigree-3019-4561161-1.jpg" alt="">
+                        </div>
+                        <div class="product-details">
+                            <h3>Pedigree 1.5kg</h3>
+                            <p>P535.00</p>
+                        </div>
+                        <div class="product-quantity">
+                            <button><i class="fa fa-minus"></i></button>
+                            <input type="text" value="1">
+                            <button><i class="fa fa-plus"></i></button>
+                        </div>
+                        <button class="product-btn">Add To Cart<i class="fa fa-shopping-cart"></i></button>
+                    </div>
+    
+                    <div class="product-slide">
+                        <div class="product-img-bx">
+                            <img src="images/cat collar.jpg" alt="">
+                        </div>
+                        <div class="product-details">
+                            <h3>Cute Cat Collar</h3>
+                            <p>P87.00</p>
+                        </div>
+                        <div class="product-quantity">
+                            <button><i class="fa fa-minus"></i></button>
+                            <input type="text" value="1">
+                            <button><i class="fa fa-plus"></i></button>
+                        </div>
+                        <button class="product-btn">Add To Cart<i class="fa fa-shopping-cart"></i></button>
+                    </div>
+
+                    <div class="product-slide">
+                        <div class="product-img-bx">
+                            <img src="images/whiskas-junior-tuna-85g-cat-wet-food.jpg" alt="">
+                        </div>
+                        <div class="product-details">
+                            <h3>Whiskas 85g</h3>
+                            <p>P100.00</p>
+                        </div>
+                        <div class="product-quantity">
+                            <button><i class="fa fa-minus"></i></button>
+                            <input type="text" value="1">
+                            <button><i class="fa fa-plus"></i></button>
+                        </div>
+                        <button class="product-btn">Add To Cart<i class="fa fa-shopping-cart"></i></button>
+                    </div>
+    
+                    <div class="product-slide">
+                        <div class="product-img-bx">
+                            <img src="images/pedigree-3019-4561161-1.jpg" alt="">
+                        </div>
+                        <div class="product-details">
+                            <h3>Pedigree 1.5kg</h3>
+                            <p>P535.00</p>
+                        </div>
+                        <div class="product-quantity">
+                            <button><i class="fa fa-minus"></i></button>
+                            <input type="text" value="1">
+                            <button><i class="fa fa-plus"></i></button>
+                        </div>
+                        <button class="product-btn">Add To Cart<i class="fa fa-shopping-cart"></i></button>
+                    </div>
+    
+                    <div class="product-slide">
+                        <div class="product-img-bx">
+                            <img src="images/cat collar.jpg" alt="">
+                        </div>
+                        <div class="product-details">
+                            <h3>Cute Cat Collar</h3>
+                            <p>P87.00</p>
+                        </div>
+                        <div class="product-quantity">
+                            <button><i class="fa fa-minus"></i></button>
+                            <input type="text" value="1">
+                            <button><i class="fa fa-plus"></i></button>
+                        </div>
+                        <button class="product-btn">Add To Cart<i class="fa fa-shopping-cart"></i></button>
+                    </div>
+
+                </div>
+
+            </div>
+            
+        </div>
+    </section>
+    
+
+
+
+</body>
+</html>
